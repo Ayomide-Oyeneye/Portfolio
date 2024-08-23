@@ -4,6 +4,8 @@ import { FaSun,FaMoon, FaHome, FaBars, FaTimes } from "react-icons/fa";
 import Header from "./code_components/header";
 import About from "./code_components/about";
 import Body from "./code_components/body";
+import Contact from "./code_components/contact"
+import Errorpage from "./code_components/errorpage";
 import Projects from "./code_components/projects";
 import transparent from "./images/transparent.png";
 import { styless, about, backColor } from "./code_components/Iconcolor";
@@ -57,7 +59,7 @@ const togglrTheme=()=>{
             </Link>
           </li>
           <li>
-            <Link className='link' to="/contact">
+            <Link className='link' to="/Contact">
               <i class="fas fa-solid fa-address-book" ></i>Contact
             </Link>
           </li>
@@ -80,7 +82,8 @@ const togglrTheme=()=>{
         <Route path="/" element={<Body />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
-        {/* Add routes for Blog and Contact as needed */}
+        <Route path="/Contact" element={<Contact />} />
+        <Route path='*' element={<Errorpage />}/>
       </Routes>
 
       <footer>
