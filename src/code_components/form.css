@@ -1,0 +1,135 @@
+#dark form h2{
+    color: rgba(63, 34, 0, 0.932);
+    transition: 0.4s ease-in-out;
+}
+.form-sec .form-container{
+    width: 70%;
+border-radius: 0.4rem;
+margin: 0 auto;
+background-color: wheat;
+padding-block-end: 10px;
+box-shadow: 1px 3px 25px 1px #6e6e6e ;
+}
+.form-sec .form-container form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    margin: 10px;
+}
+h2{
+    margin-block: 1rem;
+    font-size: xx-large;
+    color: #000852;
+}
+.form-group input{
+    display: grid;
+    outline: none;
+    width: 90%;
+    min-width: 50%;
+    border-radius: 3rem;
+    height: 2.5rem;
+    padding-inline-start: 1rem;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #f0f0f0bd;
+   
+    
+}
+.form-group input,
+.form-group label{
+    margin-inline: 10px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+.form-group input::placeholder,
+.form-group textarea::placeholder{
+    font-size: large;
+    color: #998970;
+
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(to right, #fad126,#ff564e);
+}
+.form-group input:nth-child(1){
+    margin-top: 1rem;
+}
+.form-group textarea{
+    resize: none;
+    transition: h;
+    margin-inline: 10px;
+    margin-bottom: 0.5rem;
+    border-radius: 0.2rem;
+    outline: none;
+}
+.form-group button{
+    width: 45%;
+    cursor: pointer;
+padding: 0.5rem;
+border-radius: 33rem;
+color: #4e4335;
+outline: none;
+border: 2px solid white;
+margin-inline: 10px;
+    margin-bottom: 1rem;
+    font-size: large;
+    background-image: linear-gradient(to right, #ed765e,#feab5b);
+}
+.form-group textarea::-webkit-scrollbar{
+    width: 0px;
+}
+@media (max-width: 1100px){
+    .form-sec .form-container form{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin: 0 auto;
+        margin: 10px;
+        transition: 0.4s ease-in-out;
+    }
+}
+@media (max-width: 795px){
+    .form-sec .form-container form{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin: 0 auto;
+        margin: 10px;
+        transition: 0.4s ease-in-out;
+    }
+}
+@media (max-width: 664px){
+    .form-sec .form-container form{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: 0 auto;
+        margin: 10px;
+        transition: 0.4s ease-in-out;
+    }
+}
+@media (max-width: 564px){
+    .form-sec .form-container form{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        margin: 10px;
+        transition: 0.4s ease-in-out;
+    }
+}
+@media (max-width: 464px){
+    .form-sec .form-container form{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: 0 auto;
+        margin: 10px;
+        transition: 0.4s ease-in-out;
+    }
+}
