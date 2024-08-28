@@ -53,11 +53,11 @@ const togglrTheme=()=>{
               <i class="fas fa-project-diagram"></i>Projects
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link className='link' to="/blog">
               <i class=" fas fa-solid fa-blog" ></i>Blog
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link className='link' to="/Contact">
               <i class="fas fa-solid fa-address-book" ></i>Contact

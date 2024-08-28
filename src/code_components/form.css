@@ -42,10 +42,15 @@ h2{
     display: flex;
     justify-self: center;
     align-self: center;
+    font-size:1.3rem;
 }
 .form-group input::placeholder,
 .form-group textarea::placeholder{
     font-size: large;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-self: center;
     color: #998970;
 
 }
@@ -62,6 +67,12 @@ h2{
 .form-group textarea{
     resize: none;
     transition: h;
+    padding-left: 1rem;
+    font-size:large;
+    font-weight: 700;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    background-color: #f0f0f0bd;
     margin-inline: 10px;
     margin-bottom: 0.5rem;
     border-radius: 0.2rem;
