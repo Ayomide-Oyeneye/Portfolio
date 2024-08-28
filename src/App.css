@@ -69,7 +69,8 @@
 #dark .intro h1,
 #dark .intro p,
 #dark .intro strong,
-#dark .intro .span {
+#dark .intro .span,
+#dark #projects .color-white{
   color: white;
   transition-duration: 2s;
 }
@@ -79,6 +80,12 @@
 #dark .leftover a:hover{
   color: #29a8e4;
   transition:0.1s ease-in;
+}
+#dark #projects h2::after {
+  content: "";
+
+  border: 1.5px solid rgb(248, 248, 248);
+
 }
 #dark .info p,
 #dark .info h2{
@@ -246,6 +253,10 @@ h1,
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+#about .info{
+  margin: 0 auto;
+  width: 78%;
 }
 
 #about .about-text {
@@ -653,12 +664,11 @@ footer .contact a {
   }
 }
 #about {
-  display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-items: flex-start;
   width: 100%;
   margin-top: 5rem;
+  transition-duration: 0.5s;
 }
 .info {
   width: 60%; /* Takes up 50% of the available space */

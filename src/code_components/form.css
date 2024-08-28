@@ -2,7 +2,29 @@
     color: rgba(63, 34, 0, 0.932);
     transition: 0.4s ease-in-out;
 }
+.form-sec{
+    height: 100vh;
+}
+.con-me img{
+    width: 460px;
+    height: 460px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.con-me{
+    margin: 0 auto;
+    width: 70%;
+}
+h2 img{
+    width: 50px;
+    height: 45px;
+}h2{
+    display: flex;
+    align-items: center;
+}
 .form-sec .form-container{
+    display: flex;
     width: 70%;
 border-radius: 0.4rem;
 margin: 0 auto;
@@ -102,6 +124,10 @@ margin-inline: 10px;
         margin: 0 auto;
         margin: 10px;
         transition: 0.4s ease-in-out;
+    }
+    .con-me{
+        display: none;
+        transition: 2s ease-in-out;
     }
 }
 @media (max-width: 795px){

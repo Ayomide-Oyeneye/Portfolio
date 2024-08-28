@@ -75,7 +75,7 @@ function Body() {
       </div>
     </section>
       <section id="projects">
-        <h2>Some Projects I Have Done</h2>
+        <h2 className='color-white'>Some Projects I Have Done</h2>
         <div className="project-grid">
           <div className="project-card">
             <div className="icon-image">
@@ -99,7 +99,7 @@ function Body() {
         {/* Repeat the project card for other projects */}
        
         {/* Repeat the project card for other projects */}
- <h1>Working on more!.....</h1>
+ <h1 className='color-white'>Working on more!.....</h1>
       </section>
 
       {/* Uncomment and complete the Blog Section if needed */}
