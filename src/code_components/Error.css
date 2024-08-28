@@ -1,0 +1,51 @@
+.error-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    text-align: center;
+}
+
+.error-container {
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #FFA500, #FFD700);
+    box-shadow: 0 1px 15px rgb(219, 156, 83);
+    max-width: 400px;
+    width: 100%;
+}
+
+.error-image {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.error-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.error-container p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.error-link .back-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #ff8c00; /* Dark Orange */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.error-link .back-button:hover {
+    background-color: #e07b00; /* Darker shade of orange */
+}

@@ -6,7 +6,9 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    height: 100vh;
     width: 60%;
+    margin-top: -20px;
   }
   
   #projects .project-grid {
